@@ -443,8 +443,8 @@ input, button, select, textarea {
 
 .btn,
 input[type="submit"]{
-  background: #AEAC16;
-  color: #fff;
+  background: #f2f1f1;
+  color: #AEAC16;
   border: 0;
   padding: 13px 40px;
   line-height: 100%;
@@ -453,9 +453,17 @@ input[type="submit"]{
 
 .btn:hover,
 input[type="submit"]:hover{
-  background: #f5f5f5;
+  background: #f2f1f1;
   color: #AEAC16;
 }
+
+
+.thumbnail .caption {
+  border: 0px solid #ddd;
+  padding: 0px;
+  color: #333;
+}
+
 
 .path-frontpage .feed-icon{
   display: none;
