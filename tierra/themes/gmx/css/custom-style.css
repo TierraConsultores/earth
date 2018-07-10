@@ -84,7 +84,7 @@ body {
 }
 
 .navbar-right {
-  padding-top:30px;
+  padding-top:40px;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a {
   color: #333;
@@ -219,6 +219,7 @@ img {
 .region-header .brand {
   display: inline-block;
   padding: 5px 0 5px 0;
+  margin-top: 10px;
 }
 
 .site-name a {
