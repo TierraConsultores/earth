@@ -464,7 +464,9 @@ input[type="submit"]:hover{
   color: #333;
 }
 
-
+#block-views-block-galeria-block-2 {
+  margin-bottom: 50px;
+}
 
 .slides element {
   width: 150px;
