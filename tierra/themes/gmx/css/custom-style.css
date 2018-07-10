@@ -465,6 +465,14 @@ input[type="submit"]:hover{
 }
 
 
+
+.slides element {
+  width: 150px;
+  margin-right: 5px;
+  float: left;
+  display: block;
+}
+
 .path-frontpage .feed-icon{
   display: none;
 }
