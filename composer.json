@@ -12,7 +12,6 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.5",
         "drupal/ctools": "^3.0",
-        "drupal/devel": "^1.2",
         "drupal/extlink": "^1.1",
         "drupal/features": "^3.7",
         "drupal/field_group": "^1.0",

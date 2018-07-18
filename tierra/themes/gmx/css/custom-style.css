@@ -46,10 +46,9 @@ body {
   font-style: normal;
   font-weight: 300;
   color: #4d4a4a;
-  padding-top: 65px;
+  padding-top: 80px;
   overflow-x: hidden;
 }
-
 
 .off-canvas-wrapper {
   background: #000;
@@ -78,19 +77,27 @@ body {
   }
 }
 
+.dropdown-menu > li > a {
+  color: #333;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+  color: #AEAC16;
+  background-color: #fff;
+}
+
 .navbar-default {
   background-color: #fff;
   border-color: transparent;
 }
 
-.navbar-right {
-  padding-top:40px;
-}
+.navbar-right { padding-top:40px; }
+
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a {
   color: #333;
   background-color: transparent;
   font-size: 17px;
-  font-weight: 100;
+  font-weight: 300;
   padding: 7px 14px;
   margin: 0 5px;
 }
@@ -202,6 +209,8 @@ ul.social .icon {
   clear: both;
 }
 /* END: CLEARFIX */
+
+
 
 
 /* Proporciona los padding en las páginas interiores. Clase presente unicamente en page.html.twig */
