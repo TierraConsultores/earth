@@ -1,6 +1,6 @@
 .main-header {
   background: url(../images/fosil.jpg);
-  background-size: auto auto;
+  background-size: 600px auto;
   color: #fff;
   background-size: cover;
   position: relative;
@@ -19,7 +19,7 @@
   background: rgba(17, 17, 16, 0.4);
 } */
 
-.main-header .region{
+.main-header .region {
   position: relative;
   z-index: 2;
 }
@@ -79,6 +79,7 @@
 .banner {
   text-align: center;
   padding: 150px 0 150px 0;
+  margin: 50px 0 25px 0;
 }
 
 h2.banner {
