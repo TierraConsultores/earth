@@ -117,28 +117,24 @@
       {% endif %}
       <!---End Nuestra empresa -->
 
-           <!--- Start Contacto -->
-      {% if page.enlacesdeinteres %}
-        <div class="container-fluid enlacesdeinteres">
-          <div class="row">
-            <div class="col-md-8 col-xs-12 col-md-offset-2">
-                {{ page.enlacesdeinteres }}
-            </div>
-              <div class="col-md-10 col-xs-12 col-md-offset-1">
-                <div class="margenenlaces">
-                 <div class="col-md-6">{{ page.enlacesdeinteresa }}</div>
-                 <div class="col-md-6">{{ page.enlacesdeinteresb }}</div>
-                </div>
-
-  <a href="http://andeseniosexplorers.com" >
-    <img src="{{ base_path ~ directory }}/logoa.png" alt="Andesenios Explorers" />
-  </a>
-
+<!--- Start Contacto -->
+        {% if page.enlacesdeinteres %}
+          <div class="container-fluid enlacesdeinteres">
+            <div class="row">
+              <div class="col-md-8 col-xs-12 col-md-offset-2">
+                  <a href="http://andeseniosexplorers.com" ><img src="{{ base_path ~ directory }}/logoa.png" alt="Andesenios Explorers" /></a>
+                  {{ page.enlacesdeinteres }}
               </div>
+                <div class="col-md-10 col-xs-12 col-md-offset-1">
+                  <div class="margenenlaces">
+                  <div class="col-md-6">{{ page.enlacesdeinteresa }}</div>
+                  <div class="col-md-6">{{ page.enlacesdeinteresb }}</div>
+                  </div>
+                </div>
+            </div>
           </div>
-        </div>
-      {% endif %}
-      <!---End Contacto -->
+        {% endif %}
+<!---End Contacto -->
 
 <!--Start: Social -->
     <div class="container-fluid rs box">
