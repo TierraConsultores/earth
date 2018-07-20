@@ -30,8 +30,14 @@ body {
 /* Logo - Mobile display - Start */
 @media only screen and (max-width: 769px) {
 .logo {
-	width: 300px;
+	max-width: 300px;
 }
+
+
+img {
+	max-width: 100%; 
+	height: 100%;
+  }
 
 }
 /* Logo - Mobile display only - Finish */
